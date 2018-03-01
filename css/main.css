@@ -97,14 +97,45 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /*
+     font-family: 'Asap', sans-serif;
+     font-family: 'Karla', sans-serif;
+     font-family: 'Oxygen Mono', monospace;
+   */
 
+a {
+  font-family: 'Karla', sans-serif;
+  font-weight: bold;
+  font-size: 0.9em;
+  text-decoration: none;
+  color: #151515;
+}
 
+h1 {
+  font-family: 'Karla', sans-serif;
+  font-size: 2em;
+  margin: 0.67em 0;
+  color: #151515;
+}
 
+p {
+  font-family: 'Oxygen Mono', monospace;
+  font-size: 0.75em;
+  color: #151515;
+}
 
+ul {
+  list-style: none;
+}
 
+.header {
+  flex-direction: column;
+}
 
-
-
+.secondary_content ul {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 
 
