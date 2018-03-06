@@ -126,17 +126,41 @@ p {
 
 ul {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  padding: 70px 60px 00px 0px;
 }
 
 .header {
   flex-direction: column;
 }
 
-.secondary_content ul {
-  display: flex;
-  flex-wrap: wrap;
+.main_content{
+  padding: 60px 50px 0px 120px;
 }
 
+.secondary_content {
+  background-color: #000;
+  background-image: image();
+
+  flex: 2 1 auto;
+}
+
+.secondary_content ul {
+  padding: 10px 70px 10px 0px;
+  margin: 3%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.secondary_content ul li {
+  padding: 15px 0px 0px 0px;
+}
 
 
 
